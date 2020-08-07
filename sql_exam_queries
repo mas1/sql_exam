@@ -1,5 +1,5 @@
 -- 1
-SELECT * 
+SELECT COLUMN_NAME
 FROM information_schema.columns 
 WHERE TABLE_NAME = 'naep';
 
